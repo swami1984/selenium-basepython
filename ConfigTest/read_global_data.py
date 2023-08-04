@@ -1,9 +1,9 @@
 import xlrd
-import openpyxl as xl
+# import openpyxl as xl
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 class Testdata:
-    sfile = "C://Users//thipr//OneDrive - HARMAN\Documents//Testdata1.xls"
+    sfile = "C://Users//thipr//OneDrive - HARMAN//Documents//Testdata1.xls"
     sDriversheet = "Driver"
     workbook = xlrd.open_workbook(sfile)
     dsheet = workbook.sheet_by_name(sDriversheet)
